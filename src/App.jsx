@@ -13,6 +13,7 @@ import HomeTemplate from "./templates/HomeTemplate";
 import DanhSachSanPham from "./pages/LiftingStateUp/DanhSachSanPham";
 import DemoRedux from "./pages/demoRedux/DemoRedux";
 import DemoReactHookForm from "./pages/demoReactHookForm/DemoReactHookForm";
+import ProductList from "./pages/demoAPI/ProductList";
 // BEM: Block Element Modifier
 // isEmail // camelCase
 
@@ -103,6 +104,7 @@ function App() {
                     <Route path="/danh-sach-san-pham" element={<DanhSachSanPham />} />
                     <Route path="/demo-redux" element={<DemoRedux />} />
                     <Route path="/demo-react-hook-form" element={<DemoReactHookForm />} />
+                    <Route path="/product-list" element={<ProductList />} />
                 </Route>
             </Routes>
         </>
