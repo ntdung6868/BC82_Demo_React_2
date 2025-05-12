@@ -106,7 +106,7 @@ function App() {
                     <Route path="/demo-redux" element={<DemoRedux />} />
                     <Route path="/demo-react-hook-form" element={<DemoReactHookForm />} />
                     <Route path="/product-list" element={<ProductList />} />
-                    <Route path="/product-detail/:id" element={<ProductDetail/>}>
+                    <Route path="/product-detail/:id" element={<ProductDetail />} /> // dynamic segment
                 </Route>
             </Routes>
         </>
