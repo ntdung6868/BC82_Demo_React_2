@@ -14,6 +14,7 @@ import DanhSachSanPham from "./pages/LiftingStateUp/DanhSachSanPham";
 import DemoRedux from "./pages/demoRedux/DemoRedux";
 import DemoReactHookForm from "./pages/demoReactHookForm/DemoReactHookForm";
 import ProductList from "./pages/demoAPI/ProductList";
+import ProductDetail from "./pages/productDetail/ProductDetail";
 // BEM: Block Element Modifier
 // isEmail // camelCase
 
@@ -105,6 +106,7 @@ function App() {
                     <Route path="/demo-redux" element={<DemoRedux />} />
                     <Route path="/demo-react-hook-form" element={<DemoReactHookForm />} />
                     <Route path="/product-list" element={<ProductList />} />
+                    <Route path="/product-detail/:id" element={<ProductDetail/>}>
                 </Route>
             </Routes>
         </>
